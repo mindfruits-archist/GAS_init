@@ -39,6 +39,9 @@ app.use((req, res, next) => {
 /*--------------------------------------------*/
 
 /*ROUTES*/
+app.use('/', (req,res){
+  res.end('ok')
+});
 // app.use('/chemin', myRoute);
 /*FIN ROUTES*/
 

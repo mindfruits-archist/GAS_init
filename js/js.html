@@ -1,0 +1,9 @@
+<script>
+  function launchsomething(){
+    google.script.run.withSuccessHandler((x)=>alert(x).getLaunched("something")).getLaunched('ouioui')
+  }
+  console.log(document.getElementById('bod').value)
+  console.log("okok")
+  console.log(document.getElementsByTagName('body').value)
+  document.body.addEventListener('load', ()=>{alert('ok')})
+</script>
